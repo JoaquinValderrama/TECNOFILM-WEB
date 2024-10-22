@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .back-nosotros{
+    width: 100%;
+    height: 90vh;
+     display: block;   
+     background: url('../img/banner.jpg ');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: bottom;
+    
+  }
+
+  .back-nosotros::after{
+    content:"";
+    position: absolute;
+    top: 8.5vh;
+    left: 0;
+    width: 100%;
+    height: 89vh;
+    background-color: #D9D9D9;
+    opacity: .3;
+}
+
+.back-nosotros h1{
+    position: absolute ;
+    font-family: "Tilt Warp", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    top: 35vh;
+    font-size: 100px;
+    left: 0;
+    right: 0;
+}
+
+.historia .container .desc-container h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color:#00A0DF;
+}
+.desc-container{
+    width: 700px;
+}
+
+.desc-container p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container-miviva{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.miviva{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    width:100%;
+    height: 50h;
+    background: #297BCD;
+}
+
+.miviva1 h3, .miviva2 h3, .miviva3 h3{
+    font-size: 50px;
+    font-family: "Tilt Warp", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.miviva1 p, .miviva2 p, .miviva3 ul li{
+    color: #fff;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.miviva1{
+    /* background: red; */
+    width:100%;
+    height:50vh;
+    padding: 5%;
+}
+
+.miviva2{
+    /* background: green; */
+    width:100%;
+    height:50vh;
+    padding: 5%;
+}
+
+.miviva3{
+    /* background: yellow; */
+    width:100%;
+    height:50vh;
+    padding: 5%;
+}
+
+.calidad-cont-1, .calidad-cont-2{
+    width: 50%;
+}
+
+.img-calidad-cont-1{
+    margin: auto;
+    margin-bottom: 5%;
+    background: url("../img/calidad.jpg");
+    width: 70%;
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+   border-radius: 30px;
+   filter:opacity(65%);
+}
+
+.text-calidad-cont-2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text-calidad-cont-2 h3{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color:#00A0DF;
+}
+.text-calidad-cont-2 p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.iso{
+    background: url("../img/iso.png");
+    width: 70%;
+    height: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    float: right;
+}
+@media (max-width:1400px){
+
+    .desc-container{
+        justify-content: center!important;
+    }
+    
+    .nosotros-cont-2{
+        margin-top: 40px;
+    }
+
+    .cont-sub-proc-2{
+        margin-top: 0;
+    }
+
+    .procesos-2-cont-1{
+        margin-top: 2rem;
+    }
+
+    .procesos-2-cont-2{
+        margin-top: 5rem;
+    }
+
+    .cont-sub-proc{
+        margin-bottom: 5rem;
+    }
+}
+
+
+@media (max-width:1200px){
+
+    .back-nosotros h1{
+        font-size: 50px;
+    }
+    .card-valor{
+        margin: 40px 40px;
+    }
+
+    .nosotros-cont-2 p{
+        font-size: 14px;
+    }
+
+    .procesos-2-cont-2{
+        width: 950px;
+    }
+    
+}

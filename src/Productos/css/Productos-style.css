@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .back-productos{
+    width: 100%;
+    height: 90vh;
+     display: block;   
+     background: url('../img/banner-producto.jpg ');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: bottom;
+    
+  }
+
+  .back-productos::after{
+    content:"";
+    position: absolute;
+    top: 8.5vh;
+    left: 0;
+    width: 100%;
+    height: 89vh;
+    background-color: #D9D9D9;
+    opacity: .3;
+}
+
+.back-productos h1{
+    position: absolute ;
+    font-family: "Tilt Warp", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    top: 35vh;
+    font-size: 100px;
+    left: 0;
+    right: 0;
+}
+
+
+.linea-productos .container h2{
+    margin-top: 15px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color:#00A0DF;
+}
+
+.linea-productos .container .container-subtext{
+    width: 40%;
+    margin: auto;
+}
+.linea-productos .container p{
+    font-size:22px
+}
+
+.productos-iso{
+    background: url("../img/productos-iso.png");
+    /* width: 70%; */
+    height: 16vh;
+    margin:auto ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.container-list-productos .container-box .box-prod{
+    margin-top: 40px;
+    width:25%;
+    height: 35vh;
+    /* background: red; */
+}
+
+.container-list-productos .container-box .box-prod a {
+    display: block;
+    margin: auto;
+    width: 380px;
+    height: 100%;
+    border-radius: 50%;
+    filter: blur(0);
+}
+
+.container-list-productos .container-box .box-prod a .c1:hover{
+    
+    filter: blur(1);
+
+}
+
+.c1, .c2, .c3 ,.c4{
+    position: relative;
+    margin: auto;
+    width: 350px;
+    height: 335px;
+    border-radius: 50%;
+    filter: drop-shadow(-1px 6px 6px #D9D9D9);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    
+}
+
+.c1{
+    background: url(../img/industrial.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* z-index:100 */
+}
+
+.c1:hover,c2:hover,c3:hover,c4:hover{
+    opacity: 1;
+}
+
+.circle:hover::before {
+    opacity: 0.5;
+}
+.c1::before,.c2::before,.c3::before,.c4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #D9D9D9; /* Color de superposición */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.c2{
+    background: url(../img/agricola.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.c3{
+    background: url(../img/pesca.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.c4{
+    background: url(../img/comercial.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-prod h4{
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color:#005DB9;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #005DB9;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.circle:hover .overlay-text {
+    opacity: 1;
+}

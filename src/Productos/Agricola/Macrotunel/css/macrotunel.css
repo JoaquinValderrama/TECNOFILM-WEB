@@ -1,0 +1,16 @@
+.back-agricola-micromacro{
+    width: 100%;
+    height: 50vh;
+    background: url('../../img/micromacro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.back-agricola-micromacro h1{
+    color: #fff;
+    font-family: "Tilt Warp", sans-serif;
+    top: 0;
+    bottom: 0;
+}

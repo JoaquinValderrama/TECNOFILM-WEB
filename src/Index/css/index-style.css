@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+  }
+
+  /* BANNER DE INICIO */
+.back{
+width: 100%;
+height: 90vh;
+ display: block;   
+ background: url('../img/banner.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: bottom;
+
+}
+
+/* .back::after{
+    content:"";
+    position: absolute;
+    top: 8.5vh;
+    left: 0;
+    width: 100%;
+    height: 89vh;
+    background-color: #D9D9D9;
+    opacity: .3;
+} */
+
+.back h1{
+    position: absolute ;
+    font-family: "Tilt Warp", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    top: 35vh;
+    font-size: 100px;
+    left: 0;
+    right: 0;
+}
+.svg{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    z-index: 200;
+}
+.svg-wave{
+transform:translate(0,24vh)}
+
+.title-head{
+    display: inline-block;
+    position: relative;
+    top:450px;
+    left:150px;
+    height: 500px;
+}
+
+/* FIN BANNER DE INICIO */
+
+/* TITULO CONOCE MAS */
+.conoce-title{
+    font-size:60px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+/* DESCRIPCION BREVE DE NOSOTROS CON IMG */
+.leftcont p{
+    margin-top: 70px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.leftcont{
+    width: 50%;
+}
+
+.rightcont{
+    width: 50%;
+    
+}
+
+.img-iso{
+    display: block;
+    background:url(../img/iso.png);
+    height: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.rightcont .imgcont{
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: auto;
+    width: 80%;
+    height: 30vh;
+     display: block;   
+     background: url('../img/inicio.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: bottom;
+    border-radius: 30px;
+    transform: rotate(3deg);
+    filter:opacity(70%);
+    }
+
+.list ul{
+    list-style:none;
+    font-size:22px;
+}
+
+.list ul li{
+    margin-bottom: 5px;
+}
+.icon{
+    color:#005DB9;
+}
+
+.boton-mas{
+    width: 20%;
+    display: block;
+    color:#fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    background: #00A0DF;
+    border-radius: 20px;
+    font-size: 20px;
+}
+/* FIN ESPACIO NOSOTROS */
+
+/* BOX DE LINEA DE PRODUCTOS */
+
+.container-box{
+    width: 100%;
+    height: 70vh;
+    margin-top: 30px;
+}
+
+.box1, .box2, .box3, .box4{
+    width: 25%;
+    height: 70vh;
+}
+
+.box1 a, .box2 a, .box3 a, .box4 a{
+    position: absolute ;
+    font-family: "Tilt Warp", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 60px;
+    left: 0;
+    right: 0;
+    margin-top: 30vh;
+    z-index:200;
+    text-decoration: none;
+
+}
+
+.box1{
+    background: blue;
+    background: url('../img/industrial.png');
+    background-size: cover;
+    background-position: center;
+    filter:opacity(80%); 
+}
+
+.box2{
+    background: greenyellow;
+    background: url('../img/agricola.jpg');
+    background-size: cover;
+    background-position: bottom;
+    filter:opacity(80%);                  
+}
+
+.box3{
+    background: yellow;
+    background: url('../img/pesca.jpg');
+    background-size: cover;
+    background-position: bottom;
+    filter:opacity(80%);
+}
+
+.box4{
+    background: purple;
+    background: url('../img/comercial.jpg');
+    background-size: cover;
+    background-position: bottom;
+    filter:opacity(80%);
+}
+/* FIN DEL BOX DE LINEA DE PRODUCTOS */
+
+.oficinas{
+    /* padding-top: 40px;    */
+}
+.ofi-h2{
+    margin-top: 90px;
+    color:#00A0DF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.box-sede{
+    display: flex;
+    width: 100%;
+    height: 450px; 
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+.map-body{
+    display: flex;
+    align-items: center;
+}
+
+.title-ubi{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color:#00A0DF;
+}
+
+.llegar-btn{
+    text-align: center;
+    width: 40%;
+    display: block;
+    background: #00A0DF;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+@media (max-width:1700px){
+    .back{
+        height: 700px;
+        /* background-size: cover; */
+    }
+
+    
+.title-head{
+
+    top:280px;
+    left:150px;
+
+}
+
+}
+
+@media (max-width:1470px){
+    .back{
+        height: 550px;
+        /* background-size: cover; */
+    }
+
+    
+    .title-head{
+
+        top:180px;
+        left:150px;
+
+    }
+    .title-head h1{
+        font-size: 50px;
+
+    }
+
+    .title-head h2{
+        font-size: 40px;
+    }
+
+    .p-title{
+        font-size: 16px;
+    }
+
+    .pc5,.pc2{
+        margin-top: 0!important;
+    }
+
+
+}
+
+
+@media (max-width:1200px){
+    .title-head{
+        position:unset;
+        text-align: center; 
+        display: block;
+        margin-top: 140px
+
+    }
+    .back{
+        background-position: bottom;
+        height: 1400px;
+        /* background-size: cover; */
+    }
+
+    .title-head h1{
+        font-size: 90px;
+    
+    }
+    
+    .title-head h2{
+        font-size: 80px;
+    }
+    
+    .p-title{
+        font-size: 22px;
+    }
+
+    .btn-title{
+        display: inline-block;
+        width: 500px;
+    }
+}
+
+@media (max-width:790px){
+    .back{
+        background-position: bottom;
+        height: 1000px;
+        /* background-size: cover; */
+    }
+
+    .title-head h1{
+        font-size: 60px;
+    
+    }
+    
+    .title-head h2{
+        font-size: 50px;
+    }
+    
+    .p-title{
+        font-size: 18px;
+    }
+
+    .btn-title{
+        display: inline-block;
+        width: 350px;
+    }
+    .box-sede{
+        
+        display: block!important;
+        height: 900px;
+    }
+
+    .box-sede .space2{
+        height: 500px;
+    }
+    .box-sede .space2 .sub-space2{
+        margin-top: 30px;
+        height: 500px;
+    }
+}
+
+@media (max-width:510px){
+    .back{
+        background-position: bottom;
+        height: 800px;
+        /* background-size: cover; */
+    }
+
+    .conocenos a{
+        width: 170px;
+   
+    }
+}

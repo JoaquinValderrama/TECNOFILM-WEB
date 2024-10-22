@@ -1,0 +1,73 @@
+.back-agricola-agrofilm{
+    width: 100%;
+    height: 50vh;
+    background: url('../../img/agrofilm.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.back-agricola-agrofilm h1{
+    color: #fff;
+    font-family: "Tilt Warp", sans-serif;
+    font-size: 100px;
+    top: 0;
+    bottom: 0;
+}
+
+.agrofilm-caracteristicas h3, .agrofilm-descripcion h3{
+font-family: 'Quicksand', sans-serif;
+font-weight: 700;
+color: #00A0DF;
+font-size: 40px;
+margin-bottom: 20px;
+
+}
+.agrofilm-descripcion{
+    width: 50%;
+}
+
+.agrofilm-caracteristicas{
+    width: 50%;
+}
+
+.agrofilm-caracteristicas p, .agrofilm-descripcion p{
+    width: 85%;
+    text-align: justify;
+}
+
+.container-presentacion .anchos , .container-presentacion .pesorollo,
+.container-presentacion .largos  , .container-presentacion .colores {
+    width: 200px;
+}
+
+.container-presentacion .anchos h6, .container-presentacion .pesorollo h6,
+.container-presentacion .largos h6 , .container-presentacion .colores h6{
+    background: green;
+    font-size: 22px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 0!important;
+    border: 1px solid #fff;
+}
+
+.container-presentacion .anchos p, .container-presentacion .pesorollo p,
+.container-presentacion .largos p , .container-presentacion .colores p {
+    background: rgb(230, 230, 230);
+    padding: 10px; 
+    color: black;
+    border: 1px solid #fff;
+}
+
+.descargar-brochure{
+    padding: 50px;
+}
+
+.descargar-brochure a{
+    background:#005DB9;
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 10px;
+}

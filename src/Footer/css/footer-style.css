@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+.footer{
+    background: #2D2D2D;
+    padding-bottom: 10px;
+}
+
+.container-footer{
+    padding-top: 50px;
+}
+
+.info-footer{
+    width: 200px;
+}
+.info-footer p{
+    margin-top: 20px;
+    color:#fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 13px;
+
+}
+.logo-footer{
+    width: 200px;
+}
+
+.container-footer{
+    width: 100%;
+}
+.navegacion h4,
+.productos h4,
+.siguenos h4{
+    color:#fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.navegacion ul,
+.productos ul{
+    list-style:none;
+    font-size: 15px;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.navegacion ul li,
+.productos ul li{
+    margin-bottom:20px;
+}
+.navegacion ul li a,
+.productos ul li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.cont-red{
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    transition: .4s;
+}
+
+.cont-red .icon{
+    margin: auto;
+    color:#fff;
+    transition: .4s;
+}
+
+
+.cont-red:hover {
+    background: #fff;
+
+    .icon{
+        color:#005DB9
+    }
+}
+
+hr{
+    color:#474747;
+}
+
+.trademark hr{
+    color: #474747;
+}
+.trademark p{
+    
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        color: #fff;
+        font-size: 15px;
+}
+
+@media (max-width:780px){
+    .navegacion,.productos{
+        display: none;
+        
+    }
+
+    .siguenos h4{
+        margin-top: 30px;
+
+    }
+    
+    .siguenos, .info-footer{
+        margin:0 auto ;
+        width: 280px;
+    }
+
+}

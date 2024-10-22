@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+.container-cards{
+    margin-top: 3rem;
+}
+.cont-prod{
+    width:380px;
+    margin-bottom:10px;
+    margin-top: 3rem;
+    
+}
+.card-producto{
+    
+
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+    margin-bottom: 20px;
+}
+
+.cont-prod h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:#00A0DF;
+}
+.cont-prod p{
+    color:#005DB9;
+    float:left;
+    font-size: 20px;
+
+}
+
+.cont-prod .ver-mas{
+    background: #00A0DF;
+    float: right;
+    text-decoration: none;
+    color:#fff;
+    font-size: 16px;
+    border:1px solid #00A0DF;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.pa1{
+    background-image: url('../../img/img1.jpg');
+
+}
+
+.pa2{
+    background-image: url('../../img/img2.jpg');
+    background-size: cover;
+}
+
+.pa3{
+    background-image: url('../../img/img3.jpg');
+    background-size: cover;
+}
+
+.pa4{
+    background-image: url('../../img/img4.jpg');
+    background-size: cover;
+}
+
+.pa5{
+    background-image: url('../../img/img5.jpg');
+    background-size: cover;
+
+}
+
+.pa6{
+    background-image: url('../../img/img6.jpg');
+    background-size: cover;
+}
+
+.desc-cont{
+    text-decoration: none;
+    text-align: center;
+}
+.desc-cont .descarga-ficha{
+    display: block;
+    background: #00A0DF;
+    color: #fff;
+    width: 170px;
+    padding: 12px ;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.desc-cont .descarga-ficha:hover{
+    background: #005DB9;
+}
+.desc-cont .descarga-ficha img{
+    margin-right: 10px;
+}
+
+.descarga-ficha img{
+    position: relative;
+    top:-3px
+}
